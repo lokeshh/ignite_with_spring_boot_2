@@ -18,9 +18,9 @@ package pl.piomin.services.ignite.repository;/*
 
 import java.util.List;
 import javax.cache.Cache;
-import org.apache.ignite.springdata20.repository.IgniteRepository;
-import org.apache.ignite.springdata20.repository.config.Query;
-import org.apache.ignite.springdata20.repository.config.RepositoryConfig;
+import org.apache.ignite.springdata.repository.IgniteRepository;
+import org.apache.ignite.springdata.repository.config.Query;
+import org.apache.ignite.springdata.repository.config.RepositoryConfig;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 import pl.piomin.services.ignite.model.Person;

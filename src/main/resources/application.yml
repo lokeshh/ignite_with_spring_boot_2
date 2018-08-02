@@ -13,3 +13,5 @@ server:
 management:
   security:
     enabled: false
+
+
