@@ -59,7 +59,7 @@ public class IgniteRestApplication {
 		cfg.setDiscoverySpi(spi);
 
 		IgniteLogger log = new Slf4jLogger();
-//		cfg.setGridLogger(log);
+		cfg.setGridLogger(log);
 		return Ignition.start(cfg);
 	}
 	
